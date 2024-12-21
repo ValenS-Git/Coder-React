@@ -1,0 +1,124 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Dragon ball: Sparking Zero",
+            "description": "Lucha en combates que desafían la gravedad y muestran los poderes destructivos y las habilidades Ki de todos los personajes de Dragon Ball con gran detalle.",
+            "history": "Dragon Ball: Sparking! Zero toma la legendaria jugabilidad de la serie Budokai Tenkaichi y la lleva a un nivel superior.  Incluye una cantidad increíble de personajes con los que puedes jugar, cada uno con sus habilidades, transformaciones y técnicas características. Libera el espíritu luchador que hay en tu interior y pelea en arenas que se desmoronan y reaccionan a tu poder a medida que la batalla se vuelve más encarnizada.",
+            "category": "accion",
+            "price": 100,
+            "thumbnail": "https://image.api.playstation.com/vulcan/ap/rnd/202405/2216/cbb03393f0ab1149f2b89a8194ce19e596a24fa5bec6526a.png",
+            "quantity": 1
+        },
+        {
+            "id": 2,
+            "title": "Black Myth: Wukong",
+            "description": "Conviértete en el Predestinado en este RPG de acción. Enfrenta tu destino en un viaje al oeste.",
+            "history": "Black Myth: Wukong es un RPG de acción basado en la mitología china y en Viaje al Oeste, una de las cuatro grandes novelas clásicas de la literatura china.Emprenderás una travesía como el Predestinado, que estará llena de maravillas y desafíos, para descubrir la verdad oculta bajo el velo de una gloriosa leyenda del pasado.Como el Predestinado, a lo largo de tu travesía te toparás con rivales dignos y enemigos poderosos. Enfréntalos en batallas épicas donde rendirse no será una opción.",
+            "category": "aventura",
+            "price": 39.99,
+            "thumbnail": "https://image.api.playstation.com/vulcan/ap/rnd/202405/2117/bd406f42e9352fdb398efcf21a4ffe575b2306ac40089d21.png",
+            "quantity": 1
+        },
+        {
+            "id": 3,
+            "title": "Stellar Blade",
+            "description": "Es una historia de acción y aventura que transcurre en un mundo posapocalíptico de ciencia ficción y que ofrece un combate repleto de acción y elementos de los juegos de rol.",
+            "history": "El futuro de la humanidad está en juego en Stellar Blade, una nueva historia de acción y aventura para PlayStation®5.La Tierra ha sido abandonada, devastada por criaturas poderosas y extrañas, y lo que queda de la diezmada raza humana se ha escapado a una colonia en el espacio exterior.Desde la Colonia, EVE, la integrante del Escuadrón Aéreo VII, llega a nuestro desolado planeta con una misión: salvar a la humanidad y recuperar la Tierra de las garras de los Naytibas, la fuerza malévola que ha arrasado con todo.",
+            "category": "aventura",
+            "price": 59.99,
+            "thumbnail": "https://image.api.playstation.com/vulcan/ap/rnd/202401/2211/40e7cfd126a11fe5118310ebce6d9b3a23e7cabaca717217.png",
+            "quantity": 1
+        },
+        {
+            "id": 4,
+            "title": "God of War Ragnarok",
+            "description": "Embárcate en un épico y cordial viaje mientras Kratos y Atreus luchan por aferrarse y soltar.",
+            "history": "Desde Santa Monica Studio llega la secuela del aclamado por la crítica God of War (2018). Fimbulvetr ya está en camino. Kratos y Atreus deben viajar a cada uno de los nueve reinos en búsqueda de respuestas, mientras que las fuerzas asgardianas se preparan para una batalla profetizada que terminará con el mundo. En el camino explorarán paisajes increíbles y míticos, y se enfrentarán a aterradores enemigos en la forma de dioses nórdicos y monstruos. La amenaza del Ragnarök cada vez está más cerca. Kratos y Atreus deben elegir entre su propia seguridad y la seguridad de los reinos.",
+            "category": "accion",
+            "price": 59.99,
+            "thumbnail": "https://image.api.playstation.com/vulcan/ap/rnd/202207/1210/4xJ8XB3bi888QTLZYdl7Oi0s.png",
+            "quantity": 1
+        },
+        {
+            "id": 5,
+            "title": "The Last of us: part 2",
+            "category": "terror",
+            "description": "Enfrenta las devastadoras repercusiones físicas y emocionales de las acciones de Ellie.",
+            "history": "Cinco años después de su peligroso viaje a través de unos Estados Unidos pospandemia, Ellie y Joel logran establecerse en Jackson, Wyoming. La vida en una próspera comunidad de sobrevivientes les ha permitido disfrutar de paz y estabilidad a pesar de la amenaza constante de los infectados y de otros supervivientes desesperados. Cuando un evento violento interrumpe esa paz, Ellie se embarca en un viaje incesante para obtener justicia y llegar a un cierre.",
+            "price": 19.99,
+            "thumbnail": "https://image.api.playstation.com/vulcan/ap/rnd/202312/0117/315718bce7eed62e3cf3fb02d61b81ff1782d6b6cf850fa4.png",
+            "quantity": 1
+        },
+        {
+            "id": 6,
+            "title": "Silent Hills 2",
+            "category": "terror",
+            "description": "Explora Silent Hill en busca de la esposa fallecida de James en este juego de terror psicológico renovado.",
+            "history": "Ponte en el papel de James Sunderland y adéntrate en el pueblo abandonado de Silent Hill en este anticipado remake del clásico de 2001. Atraído a este misterioso lugar por una carta de su esposa, que murió tres años atrás, James se dirige al pueblo en busca de cualquier rastro de su esposa. Entra en un mundo irreal donde encontrarás monstruos retorcidos, el amenazante Pyramid Head y un reparto de personajes aparentemente normales que luchan con su pasado. Mientras James acepta su propio caos, una pregunta persistirá: ¿por qué vino a Silent Hill en realidad?",
+            "price": 49.99,
+            "thumbnail": "https://image.api.playstation.com/vulcan/ap/rnd/202210/2000/IgwsFz9BiBrFvyV7pIWpoVgd.png",
+            "quantity": 1
+        },
+        {
+            "id": 7,
+            "title": "Horizon Forbidden West",
+            "category": "mundo-abierto",
+            "description": "Únete a Aloy mientras desafía el Oeste Prohibido, una frontera majestuosa, aunque peligrosa, en la que se ocultan nuevas y misteriosas amenazas.",
+            "history": "Explora tierras remotas, enfréntate a máquinas más grandes e imponentes y descubre increíbles tribus en tu regreso a un futuro lejano en el mundo apocalíptico de Horizon.La tierra se muere. Las rugientes tormentas y una desolación imparable causan estragos entre lo que queda de la humanidad, unas cuantas tribus dispersas, mientras nuevas y temibles máquinas merodean por sus fronteras. La vida en la Tierra se enfrenta a una nueva extinción y nadie sabe por qué.",
+            "price": 69.99,
+            "thumbnail": "https://image.api.playstation.com/vulcan/ap/rnd/202107/3100/1dy5w3SNiJnXjP8YvmydCL9X.png",
+            "quantity": 1
+        },
+        {
+            "id": 8,
+            "title": "Ratchet & Clank Rift Apart",
+            "category": "aventura",
+            "description": "Salta de una dimensión a otra con Ratchet y Clank para derrotar a un emperador malvado de otra realidad.",
+            "history": "¡Los aventureros intergalácticos protagonizan un regreso espectacular en Ratchet & Clank: Una dimensión aparte!Salta de dimensión en dimensión junto a nuestros héroes por primera vez en tu PC. Ayúdalos a derrotar a un malvado emperador de otra realidad viajando entre mundos cargados de acción y más allá.Con el destino de su propio universo en juego, ¡desempolva el brutal arsenal de este dúo dinámico y evita un colapso dimensional!Crea un doble equipo de ensueño con un reparto de aliados conocidos y de caras nuevas, como Rivet, una nueva luchadora lombax de la Resistencia de otra dimensión, tan decidida como tú a eliminar a la amenaza robótica.",
+            "price": 59.99,
+            "thumbnail": "https://image.api.playstation.com/vulcan/ap/rnd/202101/2921/QYQ3S7LubGFoVfn8vJ3cmZHw.png",
+            "quantity": 1
+        },
+        {
+            "id": 9,
+            "title": "Hogwarts Legacy",
+            "category": "mundo-abierto",
+            "description": "Conoce Hogwarts a finales del siglo XIX y decide el futuro del mundo de la hechicería.",
+            "history": "Ponte en el papel de James Sunderland y adéntrate en el pueblo abandonado de Silent Hill en este anticipado remake del clásico de 2001. Atraído a este misterioso lugar por una carta de su esposa, que murió tres años atrás, James se dirige al pueblo en busca de cualquier rastro de su esposa. Entra en un mundo irreal donde encontrarás monstruos retorcidos, el amenazante Pyramid Head y un reparto de personajes aparentemente normales que luchan con su pasado. Mientras James acepta su propio caos, una pregunta persistirá: ¿por qué vino a Silent Hill en realidad?",
+            "price": 9.99,
+            "thumbnail": "https://image.api.playstation.com/vulcan/ap/rnd/202208/1716/5xfqTHyQNpwviv22iIKDAxjp.png",
+            "quantity": 1
+        },
+        {
+            "id": 10,
+            "title": "Red Dead Redemption 2",
+            "category": "mundo-abierto",
+            "description": "Explora un mundo vasto y atmosférico la última aventura de Rockstar Games, los creadores de Grand Theft Auto.",
+            "history": "Estados Unidos, 1899. El fin de la era del salvaje oeste ha comenzado. La ley da cacería a las últimas bandas de forajidos que quedan. Los que no se rinden o sucumben, terminan muertos.Después de que un robo termina mal en el pueblo de Blackwater, Arthur Morgan y la banda Van der Linde se ven obligados a huir. Con agentes federales y los mejores cazarrecompensas de la nación pisándoles los talones, la banda debe robar y pelear, abriéndose camino por el inhóspito corazón de Estados Unidos para poder sobrevivir. A medida que las cada vez más profundas divisiones internas amenazan con separar a la banda, Arthur debe elegir entre sus propios ideales y su lealtad a la banda que lo vio crecer. ",
+            "price": 19.99,
+            "thumbnail": "https://image.api.playstation.com/cdn/UP1004/CUSA03041_00/Hpl5MtwQgOVF9vJqlfui6SDB5Jl4oBSq.png",
+            "quantity": 1
+        },
+        {
+            "id": 11,
+            "title": "Resident Evil 4",
+            "category": "terror",
+            "description": "Una emocionante reinterpretación del revolucionario clásico de terror y acción de Capcom. ",
+            "history": "Resident Evil 4, el legendario survival horror de 2005, se renueva completamente en este remake.Seis años después de los eventos de Resident Evil 2, el sobreviviente de Raccoon City, Leon Kennedy, se encuentra apostado en un recóndito pueblo de Europa para investigar la desaparición de la hija del presidente de los Estados Unidos. Lo que descubre allí no se parece a nada que haya enfrentado antes.",
+            "price": 19.99,
+            "thumbnail": "https://image.api.playstation.com/vulcan/ap/rnd/202210/0706/EVWyZD63pahuh95eKloFaJuC.png",
+            "quantity": 1
+        },
+        {
+            "id": 12,
+            "title": "F1 2023",
+            "category": "carrera",
+            "description": "El juego definitivo de F1® regresa con circuitos actualizados, autos y un nuevo capítulo de Braking Point.",
+            "history": "Sé el último en pisar el freno en EA Sports F1® 23, el videojuego oficial del 2023 FIA Formula One World Championship™. Compite rueda con rueda en los nuevos circuitos de Las Vegas y Qatar y gana recompensas y mejoras en F1® World. Las nuevas banderas rojas agregan un elemento estratégico auténtico y la distancia de carreras al 35 % brinda más acción y emoción. Braking Point, el emocionante modo de historia de un jugador, regresa a F1® 23 con un nuevo capítulo de tu carrera en F1®.",
+            "price": 14.29,
+            "thumbnail": "https://image.api.playstation.com/vulcan/ap/rnd/202311/2816/6a8e9cca68894033f83c2994933badd089bd33591a8f20eb.png",
+            "quantity": 1
+        }
+    ]
+}
