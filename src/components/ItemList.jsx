@@ -6,7 +6,7 @@ const ItemList = ({items}) => {
             <div className="grid sm:grid-cols-6 lg:grid-cols-12 gap-4">
                 {items.map(item => {
                     return (
-                        <Item item={item}/>
+                        <Item item={item} key={item.id}/>
                     )
                 })}
             </div>

@@ -5,11 +5,11 @@ import ItemCount from "./ItemCount";
 
 const ItemDetail = ({ item }) => {
     return (
-        <div className='flex h-full'>
-            <div className='w-1/2 flex items-center justify-center p-8'>
-                <img src={item.thumbnail} alt={item.title} className='max-w-full max-h-full object-contain rounded-xl' />
+        <div className='flex max-lg:flex-col h-full'>
+            <div className='lg:w-1/2 flex items-center justify-center p-8'>
+                <img src={item.thumbnail} alt={item.title} className='rounded-xl'/>
             </div>
-            <div className='w-1/2 p-8 flex flex-col h-full'>
+            <div className='lg:w-1/2 p-8 flex flex-col h-full'>
                 <h2 className='text-7xl text-[#e58d27] uppercase tracking-wide font-bold'>{item.title}</h2>
                 <h4 className='text-2xl font-sans capitalize text-gray-400 mt-2'>{item.category}</h4>
                 <h4 className='mt-8 text-gray-100 uppercase font-semibold text-[26px]'>{item.description}</h4>
@@ -31,9 +31,9 @@ const ItemDetail = ({ item }) => {
                         <FaRegUser className='text-2xl text-[#e58d27]' />
                         <p>1 - 2 jugadores</p>
                     </div>
-                    <p className="text-3xl text-[#e58d27] font-semibold italic my-4">$ {item.price}</p>
+                    <p className="text-3xl text-[#e58d27] font-semibold italic my-4">${item.price}</p>
                 </div>
-                <ItemCount />
+                <ItemCount item={item}/>
             </div>
         </div>
     )

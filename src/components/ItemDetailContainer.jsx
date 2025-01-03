@@ -3,7 +3,7 @@ import { useParams } from 'react-router'
 import ItemDetail from './ItemDetail'
 
 const ItemDetailContainer = () => {
-    const [item, setItem] = useState({ thumbnail: [], title: '', description: '', history: '',price: '' })
+    const [item, setItem] = useState({ thumbnail: [], title: '', description: '', history: '',price: undefined })
     const { id } = useParams()
 
     useEffect(() => {
