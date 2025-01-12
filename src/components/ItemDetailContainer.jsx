@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router'
+import { getItem } from '../firebase/db'
 import ItemDetail from './ItemDetail'
 
 const ItemDetailContainer = () => {
@@ -7,15 +8,14 @@ const ItemDetailContainer = () => {
     const { id } = useParams()
 
     useEffect(() => {
-        fetch("/products.json")
-            .then(res => res.json())
+        getItem(id)
             .then(data => {
-                const filterItem = data.products.find(prod => prod.id === parseInt(id))
-                setItem(filterItem);
+                setItem(data);
             })
             .catch(err => {
                 console.error("Error al cargar el producto", err)
             })
+        
     }, [id]);
     return (
         <ItemDetail item={item} />

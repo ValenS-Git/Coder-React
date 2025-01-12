@@ -2,7 +2,7 @@ import { Link } from "react-router";
 
 const Item = ({item}) => {
     return (
-        <div className="lg:col-span-3 sm:col-span-3 bg-[#242731] rounded-xl relative hover:shadow-lg hover:shadow-[#e58d27] transition-all">
+        <div className="xl:col-span-3 lg:col-span-4 sm:col-span-3 bg-[#242731] rounded-xl relative hover:shadow-lg hover:shadow-[#e58d27] transition-all">
             <img src={item.thumbnail} className="w-full rounded-t-xl" />
             <div className="p-4">
                 <div className="flex items-center justify-between">

@@ -8,13 +8,13 @@ const CartWidget = () => {
 
     return (
         <ul className='flex items-center gap-6 text-4xl'>
-            <li className='hover:text-[#e58d27] transition-colors'>
+            <li className='max-lg:hidden hover:text-[#e58d27] transition-colors'>
                 <Link to={`/cart`} className='p-2 relative'>
                     <RiShoppingCartLine/>
                     <p className='absolute left-5 top-[55%] bg-[#e58d27] text-black rounded-full w-7 text-center text-lg font-bold'>{addQuantity ()}</p>
                 </Link>
             </li>
-            <li className='hover:text-[#e58d27] transition-colors'>
+            <li className='lg:hidden hover:text-[#e58d27] transition-colors'>
                 <button className='p-2'><RiMenu3Line/></button>
             </li>
         </ul>

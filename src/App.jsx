@@ -1,4 +1,5 @@
 import Cart from "./components/Cart";
+import Checkout from "./components/Checkout";
 import ItemDetailContainer from "./components/ItemDetailContainer";
 import ItemListContainer from "./components/ItemListContainer";
 import Navbar from "./components/Navbar";
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/category/:name" element={<ItemListContainer />} />
         <Route path="/item/:id" element={<ItemDetailContainer />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/checkout" element={<Checkout />} />
       </Routes>
     </BrowserRouter>
   )

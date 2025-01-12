@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router";
+import { getProducts, getProductsByCategory } from "../firebase/db";
 import ItemList from "./ItemList";
 
 const ItemListContainer = () => {
@@ -8,19 +9,22 @@ const ItemListContainer = () => {
     const { name } = useParams()
 
     useEffect(() => {
-        fetch("/products.json") 
-            .then(res => res.json()) 
+        if (name) {
+            getProductsByCategory(name)
+                .then(res => setItems(res))
+        }
+        getProducts()
             .then(data => {
                 const filteredItems = name
-                    ? data.products.filter(product => product.category === name)
-                    : data.products;
+                    ? data.filter(product => product.category === name)
+                    : data;
 
                 setItems(filteredItems);
-                setLoading(false); 
+                setLoading(false);
             })
             .catch(error => {
                 console.error("Error al cargar los productos:", error);
-                setLoading(false); 
+                setLoading(false);
             });
     }, [name]);
 
@@ -31,7 +35,7 @@ const ItemListContainer = () => {
                     <div className="w-16 h-16 border-4 border-t-4 border-gray-300 border-t-[#e58d27] rounded-full animate-spin"></div>
                 </div>
             ) : (
-                <ItemList items={items} /> 
+                <ItemList items={items} />
             )}
         </>
     );
